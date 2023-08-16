@@ -1,3 +1,69 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
 :root {
-  
+    --clr-primary-100: hsl(12, 88%, 59%);
+    --clr-primary-200: hsl(228, 39%, 23%);
+
+    --clr-neutral-100: hsl(227, 12%, 61%);
+    --clr-neutral-200: hsl(233, 12%, 13%);
+    --clr-neutral-300: hsl(13, 100%, 96%);
+    --clr-neutral-400: hsl(0, 0%, 98%);
+
+    --ff-base: 'Be Vietnam Pro', sans-serif;
+
+    --fw-regular: 400;
+    --fw-semi-bold: 500;
+    --fw-bold: 700;
+
+    --fs-200: 0.875rem;
+    --fs-300: 1rem;
+    --fs-400: 1.125rem;
+    --fs-500: 1.375rem;
+    --fs-600: 1.75rem;
+    --fs-700: 3.25rem
+}
+
+html {
+    font-size: 16px;
+    background-color: #f8f8f8;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+    font: inherit;
+}
+
+body {
+    color: var(--clr-neutral-200);
+    font-family: var(--ff-base);
+    font-size: var(--fs-300);
+    font-weight: var(--fw-regular);
+    line-height: 1.5;
+    /*may need to vary as you go along*/
 }
