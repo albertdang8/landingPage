@@ -1,0 +1,25 @@
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 4rem;
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-btn {
+    text-decoration: none;
+    font-weight: var(--fw-semi-bold);
+}
+
+.start-btn {
+    white-space: nowrap;
+    text-decoration: none;
+    background-color: var(--clr-primary-100);
+    color: var(--clr-neutral-400);
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+}
