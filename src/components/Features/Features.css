@@ -1,0 +1,36 @@
+.features-container {
+    display: flex;
+}
+
+.features-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 3rem;
+}
+
+.features-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.feature {
+    display: flex;
+}
+
+.number {
+    background-color: var(--clr-primary-100);
+    color: var(--clr-neutral-300);
+    height: fit-content;
+    padding: .75rem 1.75rem;
+    border-radius: 2rem;
+}
+
+.section-text {
+    margin-left: 1.5rem;
+}
+
+.feature-title {
+    margin-top: 0.825rem;
+}

@@ -1,0 +1,25 @@
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 0;
+    padding: 2rem 4rem;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.banner-btn {
+    align-self: flex-start;
+}
+
+.banner-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}

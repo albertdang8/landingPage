@@ -20,12 +20,12 @@
     --fs-400: 1.125rem;
     --fs-500: 1.375rem;
     --fs-600: 1.75rem;
-    --fs-700: 3.25rem
+    --fs-700: 2.5rem;
 }
 
 html {
     font-size: 16px;
-    background-color: #f8f8f8;
+    background-color: var(--clr-neutral-400);
 }
 
 *,
@@ -60,10 +60,41 @@ select {
 }
 
 body {
-    color: var(--clr-neutral-200);
+    color: var(--clr-primary-200);
     font-family: var(--ff-base);
     font-size: var(--fs-300);
     font-weight: var(--fw-regular);
     line-height: 1.5;
     /*may need to vary as you go along*/
+}
+
+h1 {
+    font-size: var(--fs-700);
+    font-weight: var(--fw-bold);
+}
+
+h2 {
+    font-size: var(--fs-600);
+    font-weight: var(--fw-bold);
+}
+
+h3 {
+    font-size: var(--fs-300);
+    font-weight: var(--fw-bold);
+}
+
+p {
+    color: var(--clr-neutral-100);
+}
+
+.beep {
+    margin-bottom: 1rem;
+}
+
+.boop1 {
+    margin-bottom: 2rem;
+}
+
+.boop2 {
+    margin-bottom: 3rem;
 }
