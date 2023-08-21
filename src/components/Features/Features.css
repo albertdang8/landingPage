@@ -1,18 +1,25 @@
 .features-container {
     display: flex;
+    margin-bottom: 5rem;
 }
 
 .features-left {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin: 0 3rem;
+    margin: 3rem 3rem 0 0;
+    padding-left: 4rem;
+}
+
+.feature-left-text {
+    width: 30ch;
 }
 
 .features-right {
     display: flex;
     flex-direction: column;
     width: 50%;
+    padding-right: 4rem;
 }
 
 .feature {

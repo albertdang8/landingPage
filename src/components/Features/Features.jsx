@@ -6,7 +6,7 @@ const Features = () => {
     <div className='features-container'>
       <div className="features-left">
         <h2 className='boop1'>What's different about Manage?</h2>
-        <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
+        <p className='feature-left-text'>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
       </div>
       <div className="features-right">
         <div className="feature boop2">
